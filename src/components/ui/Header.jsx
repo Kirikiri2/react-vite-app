@@ -1,17 +1,23 @@
+import logo from "/logo.svg";
+import Button from "./Button";
+import ANavTeg from "./ANavTeg";
+import { uiNameANavTeg } from "./data";
+
 export default function Header() {
-    return (
-        <header className="container mx-auto flex justify-between items-center py-6 sm:flex-row flex-col gap-5">
-            <a href="#"><img src="/logo.svg" alt="" /></a>
+  return (
+    <header className="container mx-auto flex justify-between items-center p-4">
+      <div className="logo">
+              <img src={logo} alt="logo" />
+      </div>
+      <div className="flex justify-between gap-10 items-center">
+        <ANavTeg {...uiNameANavTeg[0]} />
+        <ANavTeg {...uiNameANavTeg[1]} />
+        <ANavTeg {...uiNameANavTeg[2]}/>
+      </div>
+      <div className="button">
+        <Button text="Связаться"/>
+      </div>
+    </header>
+  );
+};
 
-
-            <input className="py-4 px-8 bg-[#F8F8F8] text-[#4B5563] rounded-3xl max-w-[400px] w-full" type="text" placeholder="Search in products..." />
-
-
-
-            <div className="flex gap-x-[22px] items-center">
-                <a href="#"><img src="/cart.svg" alt="" /></a>
-                <a href="#"><img src="/user-btn.svg" alt="" /></a>
-            </div>
-        </header>
-    )
-}

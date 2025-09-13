@@ -1,17 +1,19 @@
-import PodborkaTovarov from "./components/blocks/PodborkaTovarov";
 import Header from "./components/ui/Header";
-import { products } from "./data";
+import HeroSection from "./components/blocks/HeroSection";
+import SecondSection from "./components/blocks/SecondSection";
 export default function App() {
 
   return (
-
-    <div>
+    <main className="bg-[#F4F9E2] mx-auto">
       <Header />
-
-
-      <PodborkaTovarov title="Recommendations" description="Best matching products for you" description_color="#f60000" products={products} />
-    </div>
-
+      <section>
+        <HeroSection />
+      </section>
+      <section>
+        <SecondSection />
+      </section>
+        
+    </main>
   )
 
 }
