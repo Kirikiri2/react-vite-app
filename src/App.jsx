@@ -1,6 +1,8 @@
 import Header from "./components/ui/Header";
 import HeroSection from "./components/blocks/HeroSection";
 import SecondSection from "./components/blocks/SecondSection";
+import ThirdSection from "./components/blocks/ThirdSection";
+import CardSection from "./components/blocks/CardSection";
 export default function App() {
 
   return (
@@ -12,7 +14,10 @@ export default function App() {
       <section>
         <SecondSection />
       </section>
-        
+      <section>
+        <ThirdSection />
+      </section>
+        <CardSection />
     </main>
   )
 
