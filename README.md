@@ -1,12 +1,143 @@
-# React + Vite
+# React Landing Page — Component Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Учебный проект по разработке адаптивного лендинга с использованием React и Vite.  
+Создан на 2 курсе колледжа в рамках изучения React.js и компонентного подхода.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## О проекте
 
-## Expanding the ESLint configuration
+Проект представляет собой одностраничное веб-приложение, реализованное на React по макету из Figma.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Основная цель — освоить компонентную архитектуру, научиться разбивать интерфейс на переиспользуемые элементы и реализовывать адаптивную вёрстку с использованием современных инструментов frontend-разработки.
+
+Figma макет - https://www.figma.com/file/cNhWYz31BR98iJSqEfHDM0/ThriveTalk-Landing-Page-(Copy)-(Copy)?type=design&node-id=0%3A1&mode=design&t=ZjotSe7V7lIn969p-1
+
+---
+
+## Задача проекта
+
+- сверстать лендинг по макету Figma с использованием React
+- реализовать компонентную архитектуру приложения
+- разбить интерфейс на переиспользуемые компоненты
+- использовать props для передачи данных между компонентами
+- применить flex/grid для построения layout
+- организовать структуру проекта в соответствии с требованиями
+
+---
+
+## Демо
+
+https://kirikiri2.github.io/react-vite-app/
+
+---
+
+## Функционал
+
+- компонентная структура приложения
+- переиспользуемые UI-компоненты
+- передача данных через props
+- адаптивная вёрстка
+
+---
+
+## Технологии
+
+- React
+- Vite
+- JavaScript
+- TailwindCSS
+
+---
+
+## Роль в проекте
+
+Выполненные задачи:
+
+- разработка структуры React-приложения
+- проектирование дерева компонентов
+- реализация компонентного подхода
+- создание переиспользуемых UI-компонентов
+- работа с props и передачей данных
+- верстка интерфейса по макету Figma
+- организация структуры проекта
+
+---
+
+## Что решает проект
+
+Проект направлен на отработку ключевых навыков React-разработки:
+
+- переход от статической вёрстки к компонентной архитектуре
+- повторное использование компонентов
+- разделение логики и представления
+- структурирование frontend-приложения
+
+---
+
+## Практикуемые навыки
+
+- основы React
+- компонентный подход
+- работа с props
+- структурирование проекта
+- адаптивная вёрстка
+- работа с layout (flex/grid)
+- перенос дизайна из Figma в React
+
+---
+
+## Структура проекта
+```
+react-vite-app/
+├── public/
+├── src/
+│ ├── assets/
+│ ├── components/
+│ │ ├── blocks/
+│ │ │ ├── HeroSection.jsx
+│ │ │ ├── SecondSection.jsx
+│ │ │ ├── ThirdSection.jsx
+│ │ │ └── CardSection.jsx
+│ │ └── ui/
+│ │ ├── Header.jsx
+│ │ ├── Button.jsx
+│ │ ├── Text.jsx
+│ │ ├── BlockText.jsx
+│ │ ├── CardText.jsx
+│ │ └── ANavTeg.jsx
+│ ├── App.jsx
+│ ├── main.jsx
+│ ├── App.css
+│ └── index.css
+├── index.html
+├── package.json
+└── vite.config.js
+```
+---
+
+## Установка и запуск проекта
+
+### 1. Установка зависимостей
+
+```
+cd react-vite-app
+npm install
+```
+
+### 2. Запуск проекта
+```
+npm run dev
+```
+
+### 3. Открыть в браузере
+http://localhost:5173/
+
+## Итог
+
+Проект стал важным шагом в изучении React и помог сформировать понимание:
+
+ - компонентной архитектуры
+ - переиспользуемости кода
+ - структуры frontend-приложений
+   
