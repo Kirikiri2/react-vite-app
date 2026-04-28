@@ -30,6 +30,8 @@ Figma макет - https://www.figma.com/file/cNhWYz31BR98iJSqEfHDM0/ThriveTalk-
 
 https://kirikiri2.github.io/react-vite-app/
 
+![src/assets/ScreenView.png](src/assets/ScreenView.png)
+
 ---
 
 ## Функционал
